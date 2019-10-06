@@ -1,6 +1,6 @@
 # HC-SR04 Ultrasonic Distance Sensor
 
-Code for getting started with a HC-SR04 Ultrasonic distance sensor and a ESP based development board (like Wemos D1 mini).
+Code for getting started with a HC-SR04 Ultrasonic distance sensor and an ESP based development board (like Wemos D1 mini).
 
 ![sensor](assets/hc-sr04-sensor.jpg)
 
@@ -12,7 +12,7 @@ Code for getting started with a HC-SR04 Ultrasonic distance sensor and a ESP bas
 
 | File/Folder | Description |
 |--- | --- |
-|  |  |
+| micropython/ | Scripts written in micropython for measuring distance. |
 |  |  |
 
 <br>
