@@ -50,7 +50,7 @@ Wire the components as shown in the diagram.
 | D1 | GPIO 5 (SCL) | HC-SR04 Echo |
 | G | GND | GND |
 
-![pin diagram](assets/WEMOS-D1-Mini.png)
+![pin diagram](assets/Wemos-D1-Mini.png)
 
 <br>
 
