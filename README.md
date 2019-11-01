@@ -45,7 +45,7 @@ Wire the components as shown in the diagram.
 
 | Pin No. | Function | Device Connection |
 | --- | --- | --- |
-| 5V | 5V | HC-SR04 VCC 5VV |
+| 5V | 5V | HC-SR04 VCC 5V |
 | D2 | GPIO 4 (SDA) | HC-SR04 Trig |
 | D1 | GPIO 5 (SCL) | HC-SR04 Echo |
 | G | GND | GND |
