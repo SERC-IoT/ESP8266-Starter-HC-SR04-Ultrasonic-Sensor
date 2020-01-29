@@ -26,7 +26,7 @@ Code for getting started with a HC-SR04 Ultrasonic distance sensor and an ESP ba
 ## Circuit Diagram
 Wire the components as shown in the diagram.
 
-![circuit diagram](assets/hc-sr04-sensor-circuit-diagram_schem.png)
+![circuit diagram](assets/hc-sr04-sensor-circuit-diagram_schem.svg)
 
 #### Components Needed
 * HC-SR04 Ultrasonic sensor
@@ -37,7 +37,7 @@ Wire the components as shown in the diagram.
 
 <br />
 
-![breadboard diagram](assets/hc-sr04-sensor-circuit-diagram_bb.png)
+![breadboard diagram](assets/hc-sr04-sensor-circuit-diagram_bb.svg)
 
 <br />
 
