@@ -1,15 +1,19 @@
-// defines pins numbers
+/*
+    Arduino sketch for measuring distance using a HC-SR04 ultrasonic distance sensor. 
+*/
+
+// define pin numbers
 const int trigPin = 4;  //D2
 const int echoPin = 5;  //D1
 
-// defines variables
+// define variables
 long duration;
 int distance;
 
 void setup() {
-    pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
-    pinMode(echoPin, INPUT); // Sets the echoPin as an Input
-    Serial.begin(9600); // Starts the serial communication
+    pinMode(trigPin, OUTPUT);   // Sets the trigPin as an Output
+    pinMode(echoPin, INPUT);    // Sets the echoPin as an Input
+    Serial.begin(115200);       // Starts the serial communication
 }
 
 void loop() {
@@ -25,8 +29,9 @@ void loop() {
     // Reads the echoPin, returns the sound wave travel time in microseconds
     duration = pulseIn(echoPin, HIGH);
 
-    // Calculating the distance
-    distance= duration*0.034/2;
+    // Calculating the distance using speed of sound estimate
+    distance = duration*0.034/2;
+
     // Prints the distance on the Serial Monitor
     Serial.print("Distance: ");
     Serial.println(distance);
