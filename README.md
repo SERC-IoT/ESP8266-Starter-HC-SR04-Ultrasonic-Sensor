@@ -4,7 +4,7 @@ Code for getting started with a HC-SR04 Ultrasonic distance sensor and an ESP ba
 
 ![sensor](assets/hc-sr04-sensor.jpg)
 
-[TODO description of how sensor works]
+Detailed description of how the sensor works can be found here: https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/
 
 <br>
 
@@ -56,4 +56,6 @@ Wire the components as shown in the diagram.
 
 ## References
 
+* Arduino tutorial: https://www.instructables.com/id/Distance-Measurement-Using-HC-SR04-Via-NodeMCU/
+* Arduino tutorial: https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/
 * Micropython library: https://github.com/rsc1975/micropython-hcsr04
