@@ -12,6 +12,8 @@ Detailed description of how the sensor works can be found here: https://lastminu
 
 | File/Folder | Description |
 |--- | --- |
+| arduino/ | Arduino sketches |
+| arduino/hc-sr04-distance-sensor/ | Arduino sketch that uses builtin functions only. |
 | micropython/ | Scripts written in micropython for measuring distance. |
 |  |  |
 
