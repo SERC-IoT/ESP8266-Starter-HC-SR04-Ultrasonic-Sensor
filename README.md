@@ -8,6 +8,10 @@ Detailed description of how the sensor works can be found here: https://lastminu
 
 <br>
 
+![mcu breadboard and sensor](assets/wemos-d1-hc-sr04.jpg)
+
+<br>
+
 ## Files and Folders
 
 | File/Folder | Description |
